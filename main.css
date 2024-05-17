@@ -3,6 +3,13 @@
     padding:0;
     box-sizing:border-box;
 }
+section[id]::before {
+    content: "";
+    display: block;
+    height: 180px; / Same as header height /
+    margin-top: -100px; / Negative margin to pull content back up /
+    visibility: hidden; / Make it invisible */
+}
 body{
     margin:2px;
 }
