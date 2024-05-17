@@ -9,6 +9,7 @@ body{
 }
 
 header{
+    height:120px;
     background-image: linear-gradient(to left, #703c9a, #b393d3);
     position: sticky; top: 0;
 }
