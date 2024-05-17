@@ -3,19 +3,27 @@
     padding:0;
     box-sizing:border-box;
 }
+
+body{
+    margin:2px;
+}
+
+header{
+    background-image: linear-gradient(to left, #703c9a, #b393d3);
+    position: sticky; top: 0;
+}
+
+footer{
+    text-align: center;
+    height:200px;
+}
+
 section[id]::before {
     content: "";
     display: block;
     height: 120px; /* Same as header height */
     margin-top: -120px; /* Negative margin to pull content back up */
     visibility: hidden; /* Make it invisible */
-}
-body{
-    margin:2px;
-}
-header{
-    background-image: linear-gradient(to left, #703c9a, #b393d3);
-    position: sticky; top: 0;
 }
 
 .title{
@@ -54,12 +62,6 @@ header{
     margin-bottom: 0px; /* Add margin between rows */
 }
 
-
-footer{
-    text-align: center;
-    height:200px;
-}
-
 .connect {
     padding-left: 25px;
 }
@@ -69,7 +71,9 @@ footer{
     display: flex;
     width: 30%;
   }
+
   /*Style the submit button*/
+
   input[type="submit"] {
     background-color: #04aa6d;
     color: white;
@@ -79,7 +83,9 @@ footer{
     cursor: pointer;
     text-align: center;
   }
+
   /*Style the container */
+
   .container {
     display: block;
     border-radius: 10px;
