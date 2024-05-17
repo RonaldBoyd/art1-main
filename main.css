@@ -30,7 +30,7 @@ header{
 .row {
     display: flex; /* Use flexbox layout */
     flex-wrap: wrap; /* Allow wrapping to next line */
-    justify-content: space-between; /* Space elements evenly */
+    justify-content: space-evenly; /* Space elements evenly */
 }
 
 .row img {
@@ -39,16 +39,11 @@ header{
     margin-bottom: 0px; /* Add margin between rows */
 }
 
+
 footer{
     text-align: center;
 }
-.row {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    margin: 0 -16px;
-  }
+
 .connect {
     padding-left: 25px;
 }
@@ -77,17 +72,12 @@ footer{
     background: #f8f8f8;
     padding-top: 40px;
   }
-  figure {
-    padding:4px;
-    margin:auto;
-  }
-  figcaption {
-    background-color: white;
+  .caption{
+    width:25%; 
     color:black;
     font-style: italic;
-    text-align: center;
-    padding: 2px;
   }
+
   .payment {
     display: block;
     border-radius: 10px;
