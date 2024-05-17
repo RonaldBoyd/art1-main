@@ -1,0 +1,99 @@
+header{
+    background-image: linear-gradient(to left, #703c9a, #b393d3);
+    position: sticky; top: 0;
+}
+
+.title{
+    text-align: right;
+    font-size: 30px;
+    color: whitesmoke;
+    padding-right: 25px;
+    padding-bottom:0;
+}
+.art-links {
+    position: sticky; top: 0;
+}
+.phrase{
+    text-align: right;
+    font-style: italic;
+    font-size: large;
+    color: white;
+    padding-right: 25px;
+    padding-top: 0;
+}
+
+.nav-links{
+    text-align: center;
+    word-spacing: 20px;
+}
+
+.row {
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow wrapping to next line */
+    justify-content: space-between; /* Space elements evenly */
+}
+
+.row img {
+    width: calc(25% - 20px); /* Each image takes 25% width of the container minus margin */
+    margin-right: 20px; /* Add margin between images */
+    margin-bottom: 0px; /* Add margin between rows */
+}
+
+footer{
+    text-align: center;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+.connect {
+    padding-left: 25px;
+}
+/*Style the label to display next to the inputs */
+.label {
+    padding: 12px 12px 12px 0;
+    display: flex;
+    width: 30%;
+  }
+  /*Style the submit button*/
+  input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 20px;
+    border: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    align: center;
+  }
+  /*Style the container */
+  .container {
+    display: block;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    background: #f8f8f8;
+    padding-top: 40px;
+  }
+  figure {
+    padding:4px;
+    margin:auto;
+  }
+  .figcaption {
+    background-color: white;
+    color:black;
+    font-style: italic;
+    text-align: center;
+    padding: 2px;
+  }
+  .payment {
+    display: block;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    background: #f8f8f8;
+    padding-top: 40px;
+    justify-content: right;
+  }
