@@ -39,6 +39,12 @@ header{
     margin-bottom: 0px; /* Add margin between rows */
 }
 
+.row figure {
+  width: calc(25% - 20px); /* Each image takes 25% width of the container minus margin */
+  margin-right: 20px; /* Add margin between images */
+  margin-bottom: 0px; /* Add margin between rows */
+}
+
 footer{
     text-align: center;
 }
