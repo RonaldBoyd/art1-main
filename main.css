@@ -81,6 +81,7 @@ footer{
     width:25%; 
     color:black;
     font-style: italic;
+    text-align:center;
   }
 
   .payment {
