@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    height:205px;
+    height:210px;
     background-image: linear-gradient(to left, #703c9a, #b393d3);
     position: sticky; top: 0;
 }
@@ -27,8 +27,8 @@ footer{
 section[id]::before {
     content: "";
     display: block;
-    height: calc(205px); /* Same as header height */
-    margin-top: calc(-1*(205px)); /* Negative margin to pull content back up */
+    height: calc(210px); /* Same as header height */
+    margin-top: calc(-1*(210px)); /* Negative margin to pull content back up */
     visibility: hidden; /* Make it invisible */
 }
 
